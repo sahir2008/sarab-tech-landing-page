@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "roboto";
+  font-family: "roboto", sans-serif;
 }
 
 ul {
@@ -14,13 +14,13 @@ ul {
 }
 
 .hero {
-  min-height: 83.9vh;
+  min-height: 80;
   background-color: #1f2937;
   padding: 16px;
 }
 header {
   width: 80%;
-  margin: 0 3rem 0 auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,7 +32,7 @@ header h1 {
 
 .hero-wrapper {
   width: 80%;
-  margin: 10rem 3rem 0 auto;
+  margin: 9rem auto;
   display: flex;
 }
 .hero-wrapper div {
@@ -45,7 +45,7 @@ header h1 {
   color: #f9faf8;
 }
 .hero-desc p {
-  max-width: 77%;
+  max-width: 70%;
   font-size: 18px;
   color: #e5e7eb;
   margin: 1rem 0;
@@ -58,4 +58,70 @@ header h1 {
     padding: 8px 2rem;
     border: none;
     border-radius: 8px;
+}
+.info {
+    min-height: 55vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.info h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 2rem 0;
+}
+
+.cards{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.card-holder{
+    flex: 1;
+}
+.card-holder p {
+    width: 160px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.card{
+    width: 160px;
+    height: 160px;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.quote {
+    background-color: #E5E7EB;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    color: #1F2937;
+}
+.quote h4 {
+    align-self: flex-end;
+    font-size: 24px;
+    color: #1F2937;
 }
